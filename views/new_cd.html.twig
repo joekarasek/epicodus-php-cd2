@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>New CD Form</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Add new cd:</h1>
+            <form action="/cd_inserted" class="form-group" method="post">
+                <label for="album">Album name:</label>
+                <input type="text" name="album" id="album">
+                <label for="artist">Artist name: </label>
+                <input type="text" name="artist" id="artist">
+                <button class="btn" type="submit">submit</button>
+            </form>
+        </div>
+    </body>
+</html>
